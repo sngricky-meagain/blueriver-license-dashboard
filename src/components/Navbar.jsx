@@ -1,0 +1,1 @@
+export default function Navbar({onNew}){return(<div className='flex justify-between items-center mb-6'><div className='text-lg font-semibold'>Blue River Dashboard</div><button onClick={onNew} className='bg-green-600 px-4 py-2 rounded hover:bg-green-700'>+ New License</button></div>);}
